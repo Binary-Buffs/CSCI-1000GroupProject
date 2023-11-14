@@ -32,6 +32,11 @@ export default function Home() {
             <p>Click here to navigate to an example page</p>
           </a>
 
+          <a href='/AustinLammers ' className='card'>
+            <h3>About Austin Lammers &rarr;</h3>
+            <p>Click here to navigate to Austin's page</p>
+          </a>
+
           <a
             href='https://github.com/vedant29/Project-CSCI-1000'
             className='card'>
