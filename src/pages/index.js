@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='title'>Congratulations! You've set up your webapp!</h1>
+        <h1 className='title'>Title of our webpage</h1>
 
         <p className='description'>
           Get started by editing <code>src/pages/index.js</code> to be your
@@ -24,6 +24,11 @@ export default function Home() {
         <div className='grid'>
           <a href='/TomHolland ' className='card'>
             <h3>Example About Me Page &rarr;</h3>
+            <p>Click here to navigate to an example page</p>
+          </a>
+
+          <a href='/AleqzanderBaker ' className='card'>
+            <h3>Aleqzander About Me &rarr;</h3>
             <p>Click here to navigate to an example page</p>
           </a>
 
