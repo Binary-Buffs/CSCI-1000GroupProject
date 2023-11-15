@@ -13,18 +13,14 @@ export default function examplePage() {
             src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
             alt='tom holland'
           />
-
+          
           <p className='description'>
-            Hey I am your friendly neighbourhood Aleqzander Baker. My real name is Tom
-            Holland. I am an actor but mostly I fight villains and juggle high school.
-            I am just your average student – well, maybe not so average. 
-            You see, I've got some incredible powerdh fvcs, like superhuman strength, agility, 
-            and the ability to shoot webs from my wrists. With great power comes great 
-            responsibility, and I'm here to protect New York City from all kinds of baddies,
-            from common crooks to supervillains. So, if you ever need a hand or a web-swinging
-            hero in your corner, just remember, I'm your friendly neighborhood Spider-Man!"
+            Hey everybody, my name's Aleqzander Baker. I have lived in Colorado my entire life and I love hiking, hanging out with friends, 
+            playing video games, playing the piano, and coding. I would tell you what I do in my free time, but sadly as a computer science major
+            I have no free time. Whenever I find five seconds between homework, tests, and studying, I enjoy feeling connected and anchored to nature.
+            I haven't coded much before college, it was more of a recent interest, but I have come to really enjoy it, even if it makes me feel 
+            incredibly stressed all the time. 
           </p>
-
           <a className='button' href='/'>
             <p> Back to Home Page</p>
           </a>
