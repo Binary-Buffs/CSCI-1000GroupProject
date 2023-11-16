@@ -8,11 +8,13 @@ export default function examplePage() {
           <div className='underline'>
             <h1 className='title'>Hello, My name is Austin Lammers!. </h1>
           </div>
-          <img
-            className='pic'
-            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            alt='tom holland'
-          />
+          <picture>
+            <img
+              className='pic'
+              src="src/public/Austin Lammers Picture.jpg"
+              alt='tom holland'
+            />
+          </picture>
 
           <p className='description'>
            Hello, Im austin lammers and I do some cool things every once in a while. I am also a CS student. How cool is that?
