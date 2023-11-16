@@ -10,8 +10,8 @@ export default function examplePage() {
           </div>
           <img
             className='pic'
-            src='https://i.postimg.cc/qR2VgDkd/spiderman.jpg'
-            alt='tom holland'
+            src='https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_945%2Cw_708&url=https%3A%2F%2Fstorage.googleapis.com%2Fpadlet-uploads%2F2141869425%2F9faffee8ee2dba7fc5fcc6e2a295c0f5%2Fcsci1000projpfp.jpg%3FExpires%3D1700721368%26GoogleAccessId%3D778043051564-q79bsd8mc40b0bl82ikkrtc3jdofe4dg%2540developer.gserviceaccount.com%26Signature%3DukiHNNVw7IOJddWF8Ge7rFJFkqTq%252BpYe5J2zDeRrIfpnNtjgbbp03pVcVTFDjRXpR68%252Fz7D1vJocPhBcxfpHgyiaI7fX9%252FiYvGS0N8old39snymaafGICU7QxASQvNrnoz4YAlf%252BRywHoyVVVos%252FH8Ywt8mzZu8rDrfg6RIS9kk%253D%26original-url%3Dhttps%253A%252F%252Fpadlet-uploads.storage.googleapis.com%252F2141869425%252F9faffee8ee2dba7fc5fcc6e2a295c0f5%252Fcsci1000projpfp.jpg'
+            alt='aleqzander baker'
           />
           
           <p className='description'>
@@ -64,7 +64,7 @@ export default function examplePage() {
           }
 
           .pic {
-            height: 450px;
+            height: 600px;
             width: 450px;
           }
 
