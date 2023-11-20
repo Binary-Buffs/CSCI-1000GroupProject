@@ -11,7 +11,7 @@ export default function examplePage() {
             <img
               className='pic'
               src='https://i.postimg.cc/Kj6vbzJn/Austin-Lammers-Picture.jpg'
-              alt='tom holland'
+              alt='Austin Lammers'
             />
           <p className='description'>
            Hello, my name is Austin Lammers and I am a Freshman in Computer Science at CU Boulder. I enjoy tennis, video games 
