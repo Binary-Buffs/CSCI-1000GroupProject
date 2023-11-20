@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <div className='container'>
       <Head>
-        <title>Website</title>
+        <title>Binary Buffs</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
-        <h1 className='title'>Title of our webpage</h1>
+        <h1 className='title'>Meet the Binary Buffs!</h1>
 
         <p className='description'>
           Get started by editing <code>src/pages/index.js</code> to be your
@@ -22,10 +22,7 @@ export default function Home() {
         <code>src/page/teamMemberName.js</code>
 
         <div className='grid'>
-          <a href='/TomHolland ' className='card'>
-            <h3>Example About Me Page &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
-          </a>
+          
 
           <a href='/AleqzanderBaker ' className='card'>
             <h3>Aleqzander About Me &rarr;</h3>
@@ -35,6 +32,11 @@ export default function Home() {
           <a href='/AustinLammers ' className='card'>
             <h3>About Austin Lammers &rarr;</h3>
             <p>Click here to navigate to Austin's page</p>
+          </a>
+
+          <a href='/TomHolland ' className='card'>
+            <h3>Example About Me Page &rarr;</h3>
+            <p>Click here to navigate to an example page</p>
           </a>
 
           <a
