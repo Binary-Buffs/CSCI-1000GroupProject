@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+//NETLIFY: https://legendary-mooncake-3c3c7a.netlify.app/
 export default function Home() {
   return (
     <div className='container'>
