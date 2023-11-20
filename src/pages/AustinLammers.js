@@ -6,18 +6,20 @@ export default function examplePage() {
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hello, My name is Austin Lammers!. </h1>
+            <h1 className='title'>Hello, My name is Austin Lammers! </h1>
           </div>
-          <picture>
             <img
               className='pic'
-              src="src/public/Austin Lammers Picture.jpg"
+              src='https://i.postimg.cc/Kj6vbzJn/Austin-Lammers-Picture.jpg'
               alt='tom holland'
             />
-          </picture>
-
           <p className='description'>
-           Hello, Im austin lammers and I do some cool things every once in a while. I am also a CS student. How cool is that?
+           Hello, my name is Austin Lammers and I am a Freshman in Computer Science at CU Boulder. I enjoy tennis, video games 
+           and overlanding and spend a lot of my free time programming, hanging out with friends, listning to music, and working 
+           out. I am originally from Loveland, CO and am now living in Williams Village. I have some background in Computer Science
+           and have enjoyed programming as a hobby for quite some time now. Whether it was making command line games, games in Unity,
+           or previous coursework, Computer Science is something I have always been interested in and I am excited to expand my
+           knowledge here at CU.  
           </p>
 
           <a className='button' href='/'>
@@ -63,8 +65,8 @@ export default function examplePage() {
           }
 
           .pic {
-            height: 450px;
-            width: 450px;
+            height: 670px;
+            width: 447px;
           }
 
           .button {
