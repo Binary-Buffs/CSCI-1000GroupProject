@@ -22,7 +22,7 @@ export default function examplePage() {
             incredibly stressed all the time. 
           </p>
           <a className='button' href='/'>
-            <p> Back to Home Page</p>
+            <p>   Return to Home   </p>
           </a>
         </main>
 

@@ -25,8 +25,8 @@ export default function Home() {
           
 
           <a href='/AleqzanderBaker ' className='card'>
-            <h3>Aleqzander About Me &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
+            <h3>About Aleqzander &rarr;</h3>
+            <p>Click here to navigate to Aleqz's page</p>
           </a>
 
           <a href='/AustinLammers ' className='card'>
@@ -41,12 +41,7 @@ export default function Home() {
           
            <a href='/MaryKodenkandath ' className='card'>
             <h3>About Mary! &rarr;</h3>
-            <p>Click here to navigate to Marys's page</p>
-          </a>
-
-          <a href='/TomHolland ' className='card'>
-            <h3>Example About Me Page &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
+            <p>Click here to navigate to Mary's page</p>
           </a>
 
           <a
@@ -96,6 +91,8 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background: #18191A;
+          /*if we dont like dark mode just delete the background line*/
         }
 
         main {
@@ -114,6 +111,7 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          color: white;
         }
 
         footer img {
@@ -146,6 +144,7 @@ export default function Home() {
           margin: 0;
           line-height: 1.15;
           font-size: 4rem;
+          color: white;
         }
 
         .title,
@@ -156,17 +155,23 @@ export default function Home() {
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
+          color: white;
+
         }
 
         .description2 {
           line-height: 1.5;
           font-size: 1.25rem;
+          color: white;
+
         }
 
         code {
-          background: #fafafa;
+          background: #AAAAAA;
+          color: black;
           border-radius: 5px;
           padding: 0.75rem;
+          opacity: .5; /*makes the color look better*/
           font-size: 1.1rem;
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
@@ -192,24 +197,28 @@ export default function Home() {
           border: 1px solid #eaeaea;
           border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
+          background: #242526;
         }
 
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          color: #3A3B3C;
+          border-color: #333333;
+          /*border-color: #0070f3;*/
         }
 
         .card h3 {
           margin: 0 0 1rem 0;
           font-size: 1.5rem;
+          color: #E4E6EB;
         }
 
         .card p {
           margin: 0;
           font-size: 1.25rem;
           line-height: 1.5;
+          color: #B0B3B8;
         }
 
         .logo {
