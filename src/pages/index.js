@@ -43,6 +43,10 @@ export default function Home() {
             <h3>About Mary! &rarr;</h3>
             <p>Click here to navigate to Mary's page</p>
           </a>
+          <a href='/coleyounoszai ' className='card'>
+            <h3>About Cole Younoszai! &rarr;</h3>
+            <p>Click here to navigate to Cole's page</p>
+          </a>
 
           <a href='/coleyounoszai ' className='card'>
             <h3>About Cole! &rarr;</h3>
