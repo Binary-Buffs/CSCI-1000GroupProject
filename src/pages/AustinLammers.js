@@ -37,6 +37,7 @@ export default function examplePage() {
             align-items: center;
             max-width: 60rem;
             margin: auto;
+            background: #18191A;
           }
 
           main {
@@ -46,12 +47,15 @@ export default function examplePage() {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            color: white;
+            background: #18191A;
           }
 
           .title {
             margin: 0;
             line-height: 1.15;
             font-size: 4rem;
+            color: white;
           }
 
           .underline {
@@ -62,6 +66,7 @@ export default function examplePage() {
           .description {
             line-height: 1.5;
             font-size: 1.5rem;
+            color: white;
           }
 
           .pic {
@@ -79,13 +84,14 @@ export default function examplePage() {
             border: 1px solid #eaeaea;
             border-radius: 10px;
             transition: color 0.15s ease, border-color 0.15s ease;
+            background: #242526;
           }
 
           .button:hover,
           .button:focus,
           .button:active {
-            color: #0070f3;
-            border-color: #0070f3;
+          
+          border-color: #333333;
           }
 
           .button p {
@@ -94,7 +100,7 @@ export default function examplePage() {
           }
 
           code {
-            background: #fafafa;
+            background: #18191A;
             border-radius: 5px;
             padding: 0.75rem;
             font-size: 1.1rem;
@@ -106,6 +112,7 @@ export default function examplePage() {
         <style jsx global>{`
           html,
           body {
+            background: #18191A;
             padding: 0;
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
